@@ -1,0 +1,72 @@
+.setup
+  padding: 105px 0 118px
+  background: $main
+  color: #fff
+  @media(max-width: 980px)
+    padding: 105px 0 78px
+
+  @media(max-width: 760px)
+    padding: 105px 0 180px
+
+  .container
+    position: relative
+  &_ico-bg
+    position: absolute
+    pointer-events: none
+    right: -30%
+    top: 77%
+    z-index: 0
+    @media(max-width: 980px)
+      right: -45%
+
+    @media(max-width: 800px)
+      opacity: 0.7
+
+    @media(max-width: 768px)
+      top: 65%
+      right: -35%
+
+    @media(max-width: 760px)
+      top: auto
+      bottom: -160px
+      right: 0
+      left: 0
+      text-align: center
+      img
+        width: 300px
+
+    @media(max-width: 500px)
+      //bottom: -20%
+      //right: -60%
+
+
+  &_title
+    margin-bottom: 66px
+    h2
+      color: $yellow
+      text-align: center
+      margin-bottom: 17px
+
+    p
+      text-align: center
+
+.setup-card
+  text-align: center
+  padding: 0 24px
+  @media(max-width: 980px)
+      padding: 0 24px 40px
+
+  &_img
+    margin-bottom: 56px
+    height: 75px
+    line-height: 75px
+    img
+      display: inline-block
+      vertical-align: middle
+  h6
+    margin-bottom: 23px
+    text-transform: uppercase
+
+  p
+    line-height: 28px
+    opacity: 0.8

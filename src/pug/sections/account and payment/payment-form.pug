@@ -1,0 +1,50 @@
+.page-form
+    .page-form_title
+        h4 Sign Up
+
+    .breadcrumbs
+        a(href='#' title='link') Cart
+        a(href='#' title='link') Shipping
+        a(href='#' title='link') Payment
+    .form-wrap.payment_form
+        .payment_card-block
+            .form-title
+                h5.h-title Pay by
+
+            .input-block
+                .input-w.input-w2
+                    input.input(type='text' placeholder='Card Number')
+                .input-w.input-w4
+                    input.input(type='text' placeholder='MM/YY')
+                .input-w.input-w4
+                    input.input(type='text' placeholder='CVV')
+
+            .input-block
+                .input-w.input-w2
+                    input.input(type='text' placeholder='Firt Name')
+                .input-w.input-w2
+                    input.input(type='text' placeholder='Last Name')
+
+
+        .payment_billing-block
+            .form-title
+                h5.h-title Billing Address
+
+            .input-block.flex-column
+                .input-w.input-w1
+                    label(for='country-usa').input
+                        input.c-radio_input(type='radio' name='country' id='country-usa' checked='checked' placeholder='')
+                        .c-radio.c-radio_inv
+                            span
+                        span.c-radio_title Same as shipping address
+
+                .input-w.input-w1
+                    label(for='country-canada').input
+                        input.c-radio_input(type='radio' name='country' id='country-canada' placeholder='')
+                        .c-radio.c-radio_inv
+                            span
+                        span.c-radio_title Use a different address
+
+        .form-wrap_btns.payment_btns.justify-content-md-between.justify-content-center
+            button.btn_arrow Back to shipping
+            button.btn_green Continue to payment

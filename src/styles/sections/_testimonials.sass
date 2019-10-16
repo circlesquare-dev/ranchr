@@ -1,0 +1,59 @@
+.testimonials
+  background: #FFFBF8
+  margin-top: 51px
+  padding: 63px 0 111px
+  overflow: hidden
+  .container
+    position: relative
+  &_ico-bg
+    position: absolute
+    pointer-events: none
+    z-index: 0
+    @media(max-width: 800px)
+      opacity: 0.7
+
+    &.ico-bg1
+      bottom: 0
+      left: -20%
+      transform: rotate(25deg)
+      @media(max-width: 1024px)
+        left: -12%
+
+    &.ico-bg2
+      top: 17%
+      right: -18%
+      transform: scale(0.7)
+      @media(max-width: 1024px)
+        right: -15%
+
+  &_title
+    margin-bottom: 106px
+    text-align: center
+    @media(max-width: 768px)
+      margin-bottom: 60px
+    h5
+      margin-bottom: 16px
+      text-transform: uppercase
+
+    p
+      font-size: 18px
+      line-height: 22px
+      font-weight: $reg
+      color: $silver
+
+
+
+.glide
+  padding-bottom: 59px
+  &__slide
+    text-align: center
+    padding: 0 70px
+    @media(max-width: 1024px)
+      padding: 0
+
+    h4
+      margin-bottom: 54px
+
+    p
+      line-height: 19px
+      color: $silver

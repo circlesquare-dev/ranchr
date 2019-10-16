@@ -1,0 +1,69 @@
+.page-form
+    .page-form_title
+        h4 Sign Up
+
+    .breadcrumbs
+        a(href='#' title='link') Cart
+        a(href='#' title='link') Shipping
+        a(href='#' title='link') Payment
+    .form-wrap
+        .form-title
+            h5.h-title Create Account
+            p.form-sub-title Let’s create an account for you. So, you’ll be able to manage your subscription
+
+        .input-block
+            .input-w.input-w2
+                input.input(type='text' placeholder='Account Email')
+            .input-w.input-w2
+                input.input(type='text' placeholder='Password')
+
+        .checkbox-info
+            .c-checkbox
+                input(type='checkbox' id='subs')
+                span
+            label(for='subs') Keep me up to date on news and exclusive offers
+
+        .form-title
+            h5.h-title Shipping information
+
+        .input-block
+            .input-w.input-w2
+                input.input(type='text' placeholder='First Name (optional)')
+            .input-w.input-w2
+                input.input(type='text' placeholder='Last Name')
+        .input-block
+            .input-w.input-w2
+                input.input(type='text' placeholder='Address')
+            .input-w.input-w2
+                input.input(type='text' placeholder='Apt/Suite')
+
+        .form-s-title Country
+
+        .input-block
+            .input-w.input-w2
+                label(for='country-usa').input
+                    input.c-radio_input(type='radio' name='country' id='country-usa' checked='checked' placeholder='')
+                    .c-radio
+                        span
+                    span.c-radio_title United States
+
+            .input-w.input-w2
+                label(for='country-canada').input
+                    input.c-radio_input(type='radio' name='country' id='country-canada' placeholder='')
+                    .c-radio
+                        span
+                    span.c-radio_title Canada
+
+        .input-block
+            .input-w.input-w2
+                input.input(type='text' placeholder='City')
+            .input-w.input-w4
+                select.input
+                    option(disabled='disabled' selected) State
+                    option Male
+                    option Female
+            .input-w.input-w4
+                input.input(type='text' placeholder='Zip Code')
+
+        .form-wrap_btns.justify-content-md-between.justify-content-center
+            button.btn_green Continue to payment

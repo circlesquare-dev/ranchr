@@ -1,0 +1,245 @@
+.page-form
+  padding: 56px 98px 56px 47px
+  margin: 0 -15px
+  min-height: 100%
+  background: rgba(#6D7278, 0.07)
+  border-left: 1px solid rgba(#979797, 0.4)
+  @media(max-width: 1024px)
+    background: none
+    border: none
+    margin: 0
+    padding: 50px 0 80px
+
+  &_title
+    margin-bottom: 32px
+
+.form-wrap
+  &_btns
+    margin-top: 53px
+    display: flex
+    justify-content: space-between
+    @media(max-width: 767px)
+      flex-direction: column
+      text-align: center
+    .btn_green
+      margin-left: auto
+      text-transform: none
+      @media(max-width: 767px)
+        order: 1
+        margin-left: 0
+        margin-bottom: 50px
+    .btn_arrow
+      @media(max-width: 767px)
+        order: 2
+
+.form-title
+  margin-bottom: 18px
+  .h-title
+    font-family: $montserrat
+    font-weight: $med
+    font-size: 22px
+    line-height: 27px
+    color: $main
+    margin-bottom: 5px
+
+  .form-sub-title
+    font-family: $montserrat
+    font-weight: $med
+    font-size: 16px
+    line-height: 20px
+    color: $main
+    opacity: 0.64
+
+.form-s-title
+  margin-top: 6px
+  margin-bottom: 12px
+  font-family: $montserrat
+  font-weight: $med
+  font-size: 16px
+  line-height: 20px
+  opacity: 0.4
+
+.checkbox-info
+  margin-top: 20px
+  margin-bottom: 53px
+  label
+    display: inline-block
+    vertical-align: middle
+    font-family: $montserrat
+    font-weight: $med
+    font-size: 16px
+    line-height: 20px
+    color: $main
+    @media(max-width: 568px)
+      width: 80%
+
+.c-checkbox
+  display: inline-block
+  vertical-align: middle
+  position: relative
+  width: 24px
+  height: 24px
+  margin-right: 12px
+  input, span
+    width: 24px
+    height: 24px
+    position: absolute
+    left: 0
+    top: 0
+
+  input
+    opacity: 0.01
+
+  span
+    background: #FFFFFF
+    border: 1px solid rgba(22, 56, 64, 0.165046)
+    border-radius: 6px
+    pointer-events: none
+    transition: border 300ms ease-out
+    &:before
+      content: ''
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+      width: 13px
+      height: 13px
+      border-radius: 3px
+      background: $green
+      opacity: 0
+      transition: opacity 300ms ease-out
+
+  input:checked + span
+    border: 2px solid $green
+    &:before
+      opacity: 1
+
+
+.c-radio
+  margin-right: 14px
+  position: relative
+  width: 20px
+  height: 20px
+  &, &_title
+    display: inline-block
+    vertical-align: middle
+
+  &_title
+    color: rgba(#163840,0.63)
+
+  &_input, span
+    position: absolute
+    left: 0
+    top: 0
+
+  &_input
+    width: 100%
+    height: 100%
+    opacity: 0.01
+
+  span
+    width: 20px
+    height: 20px
+    background: #FFFFFF
+    border: 2px solid rgba(22, 56, 64, 0.165046)
+    border-radius: 100%
+    pointer-events: none
+    transition: border 300ms ease-out
+    &:before
+      content: ''
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+      width: 10px
+      height: 10px
+      border-radius: 100%
+      background: $green
+      opacity: 0
+      transition: opacity 300ms ease-out
+
+  &_inv
+    span
+      border: 1px solid rgba(22, 56, 64, 0.165046)
+      &:before
+        content: ''
+        width: 9px
+        height: 9px
+        background: #fff
+
+.c-radio_input:checked
+  & + .c-radio
+    & + span
+      color: $green
+    span
+      border: 2px solid $green
+      &:before
+        opacity: 1
+
+  & + .c-radio_inv
+    & + span
+      color: $green
+    span
+      background: $green
+      border: 1px solid $green
+      &:before
+        opacity: 1
+
+.input-block
+  display: flex
+  margin: 0 -12px
+  @media(max-width: 767px)
+    flex-direction: column
+    margin: 0 -12px 20px
+
+.input-w
+  padding: 0 12px 20px
+  .input
+    display: block
+    position: relative
+    width: 100%
+    font-family: $montserrat
+    font-weight: $med
+    font-size: 16px
+    line-height: 20px
+    padding: 17px 20px
+    background: #FFFFFF
+    border: 1px solid rgba(22, 56, 64, 0.165046)
+    color: rgba(#163840,0.63)
+    border-radius: 8px
+    &::placeholder
+      color: rgba(#163840,0.63)
+
+
+.input-w1
+  max-width: 100%
+  flex: 0 1 100%
+
+.input-w2
+  max-width: 50%
+  flex: 0 1 50%
+
+.input-w4
+  max-width: 25%
+  flex: 0 1 25%
+
+.input-w1, .input-w2, .input-w4
+  @media(max-width: 767px)
+    max-width: 100%
+    flex: 0 1 100%
+
+.payment_form
+  padding-top: 20px
+
+.payment_card-block
+  margin-bottom: 95px
+  @media(max-width: 992px)
+    margin-bottom: 70px
+
+.payment_billing-block
+  margin-bottom: 170px
+  @media(max-width: 992px)
+    margin-bottom: 70px
+
+.payment_btns
+  margin-top: 0

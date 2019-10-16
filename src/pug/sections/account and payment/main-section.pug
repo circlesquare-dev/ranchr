@@ -1,0 +1,10 @@
+section
+    .container-fluid
+        .row.justify-content-center
+            .col-xl-5.col-12.order-lg-1.order-2
+                include left-info
+            .col-xl-7.col-md-11.col-12.order-lg-2.order-1
+                if(formSection)
+                    include account-form
+                else
+                    include payment-form

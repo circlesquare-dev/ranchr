@@ -1,0 +1,143 @@
+.choose-plan
+  margin-top: -100px
+  padding: 92px 0 266px
+  background: $main
+  position: relative
+  z-index: 0
+  @media(max-width: 992px)
+    margin-top: 0
+    padding: 92px 0 200px
+  &_title
+    margin-bottom: 80px
+
+  &_wrap
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+
+  &_item
+    flex: 0 1 45%
+    display: flex
+    flex-direction: column
+    color: #fff
+    text-align: center
+    @media(max-width: 992px)
+      margin-bottom: 60px
+      flex: 0 1 100%
+
+  .item
+    &_title
+      margin-bottom: 25px
+      .h-title
+        font-family: $baskerville
+        font-weight: $bold
+        font-size: 36px
+        line-height: 45px
+
+    &_info
+      background: $green
+      transition: background 300ms ease-out
+      padding: 32px 0 0
+      margin-bottom: 143px
+    &_price
+      margin-bottom: 20px
+      div
+        display: inline-block
+        position: relative
+        color: $main
+        span
+          font-family: $montserrat
+          font-weight: $bold
+          font-size: 36px
+          line-height: 28px
+        sup, sub
+          position: absolute
+          text-align: center
+          font-family: $montserrat
+
+        sup
+          top: 0
+          left: -12px
+          font-weight: $bold
+          font-size: 14px
+          line-height: 17px
+          letter-spacing: -0.525px
+        sub
+          bottom: 0
+          left: 100%
+          font-weight: $med
+          font-size: 8px
+          line-height: 10px
+          letter-spacing: -0.3px
+
+    &_list
+      margin-bottom: 15px
+      ul
+        display: inline-block
+        list-style: none
+        padding: 0
+        margin: 0
+        li
+          font-family: $montserrat
+          font-weight: $med
+          font-size: 16px
+          line-height: 28px
+          color: #FFFBF8
+          span
+            position: relative
+            &:before
+              content: ''
+              width: 8px
+              height: 7px
+              position: absolute
+              left: -13px
+              top: 6px
+              background: url('../images/check-list.svg') center center no-repeat
+              background-size: cover
+
+    &_img
+      margin: 0 auto -100px
+      max-width: 288px
+      width: 100%
+      img
+        width: 100%
+        height: auto
+
+    &_btn
+      display: inline-block
+      width: 170px
+      margin: 0 auto
+      .btn_green
+        padding: 17px 14px
+      &:hover
+        & + .item_info
+          background: $yellow
+
+  h2, p
+    text-align: center
+
+  h2
+    margin-bottom: 50px
+    color: $yellow
+
+  p
+    color: #fff
+    font-family: $montserrat
+    font-weight: $med
+    font-size: 16px
+    line-height: 34px
+
+  .cow-icon
+    position: absolute
+    left: -150px
+    bottom: -40px
+    width: 67%
+    opacity: 0.4
+    @media(max-width: 992px)
+      left: 0
+      width: 95%
+    img
+      width: 100%
+      height: auto
+
+

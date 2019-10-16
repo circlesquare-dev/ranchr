@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="68px" viewBox="0 0 83 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ver-2.0-(R2)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Ranchr-v2.3.2-Copy" transform="translate(-677.000000, -4719.000000)" stroke-width="2.6">
+            <g id="Setup" transform="translate(-6.000000, 4412.000000)">
+                <g id="Group-33" transform="translate(545.000000, 296.000000)">
+                    <g id="Group-22" transform="translate(140.000000, 0.000000)">
+                        <g id="Group-23" transform="translate(49.550814, 38.545397) rotate(-14.000000) translate(-49.550814, -38.545397) translate(23.550814, 5.545397)" stroke="#FFFBF8">
+                            <path d="M13.5673077,60.4897959 L50.6778846,60.4897959" id="Line-3-Copy-2"></path>
+                            <polyline id="Line-3-Copy-2" points="7.98076923 54.9183673 7.98076923 5.15543802 0 -2.12448044e-14"></polyline>
+                            <rect id="Rectangle" x="15.1634615" y="16.7142857" width="36.7115385" height="36.6122449"></rect>
+                            <rect id="Rectangle" x="28.7307692" y="16.7142857" width="9.57692308" height="13.5306122"></rect>
+                            <ellipse id="Oval" cx="7.98076923" cy="60.4897959" rx="4.78846154" ry="4.7755102"></ellipse>
+                        </g>
+                        <path d="M0,77.4460838 L26.1437785,77.4460838" id="Line-3" stroke="#78B068" stroke-linecap="round"></path>
+                        <path d="M5.58992421,69.3793436 L21.674888,69.3793436" id="Line-3-Copy" stroke="#78B068" stroke-linecap="round"></path>
+                        <path d="M16.8247138,61.3126034 L24.7074102,61.3126034" id="Line-3-Copy-2" stroke="#78B068" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

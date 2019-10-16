@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="75px" viewBox="0 0 67 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 25</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ver-2.0-(R2)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Ranchr-v2.3.2-Copy" transform="translate(-1077.000000, -4712.000000)" stroke-width="2.6">
+            <g id="Setup" transform="translate(-6.000000, 4412.000000)">
+                <g id="Group-34" transform="translate(934.000000, 302.000000)">
+                    <g id="Group-25" transform="translate(149.000000, 0.000000)">
+                        <path d="M20.8641975,44.3731143 L14.4444444,71.5731143" id="Line-3-Copy-2" stroke="#FFFBF8"></path>
+                        <path d="M51.3580247,44.3731143 L55.0275406,57.1731143" id="Line-3-Copy-2" stroke="#FFFBF8"></path>
+                        <path d="M16.8518519,64.3731143 L49.7530864,64.3731143" id="Line-3-Copy-2" stroke="#FFFBF8"></path>
+                        <path d="M0,28.3731143 L10.4320988,28.3731143" id="Line-3-Copy-2" stroke="#FFFBF8"></path>
+                        <path d="M10.9335741,21.9731143 L61.2886485,21.9731143 C62.1723025,21.9731173 62.8886455,22.6894603 62.8886455,23.5731142 C62.8886455,23.7262652 62.8666568,23.8786229 62.8233523,24.0255241 C58.0384592,40.2572509 49.1343788,48.3731143 36.1111111,48.3731143 C23.0878412,48.3731143 14.18376,40.2572481 9.39886748,24.0255158 C9.14901802,23.1779229 9.6335758,22.2882653 10.4811661,22.0384072 C10.6280667,21.995103 10.7804237,21.9731143 10.9335741,21.9731143 Z" id="Rectangle" stroke="#FFFBF8"></path>
+                        <ellipse id="Oval" stroke="#FFFBF8" cx="57.7777778" cy="64.3731143" rx="7.22222222" ry="7.2"></ellipse>
+                        <path d="M24.0489037,14.9504408 C25.385312,13.9989126 25.385312,11.5403761 24.0489037,7.57483112 C22.0442912,1.62651372 24.5500568,-2.27373675e-13 24.5500568,-2.27373675e-13" id="Path-6" stroke="#78B068" stroke-linecap="round"></path>
+                        <path d="M36.0859407,14.9504408 C37.422349,13.9989126 37.422349,11.5403761 36.0859407,7.57483112 C34.0813282,1.62651372 36.5870938,-2.39808173e-13 36.5870938,-2.39808173e-13" id="Path-6" stroke="#78B068" stroke-linecap="round"></path>
+                        <path d="M49.7605807,42.7092462 C52.4423448,37.1526605 53.0594046,32.3616277 51.6117603,28.3361477" id="Path-6-Copy" stroke="#FFFBF8" transform="translate(51.066795, 35.522697) rotate(29.000000) translate(-51.066795, -35.522697) "></path>
+                        <path d="M48.1229777,14.9504408 C49.4593861,13.9989126 49.4593861,11.5403761 48.1229777,7.57483112 C46.1183652,1.62651372 48.6241309,-2.27373675e-13 48.6241309,-2.27373675e-13" id="Path-6" stroke="#78B068" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
