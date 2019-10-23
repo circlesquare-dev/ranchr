@@ -7768,13 +7768,6 @@ footer
     color: #fff; 
     background: #163840;
 }
-@media (max-width: 767px)
-{
-    footer
-    {
-        padding: 37px 0 86px;
-    }
-}
 
 @media (max-width: 767px)
 {
